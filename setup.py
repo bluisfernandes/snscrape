@@ -30,7 +30,7 @@ setuptools.setup(
 		'pytz; python_version < "3.9.0"',
 		'filelock',
 	],
-	python_requires = '~=3.8',
+	python_requires = '3.7.13',
 	extras_require = {
 		'test': ['coverage'],
 	},
